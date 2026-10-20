@@ -1,0 +1,215 @@
+(footprint "MICS-SMD10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.42565 -4.44184 0)
+		(layer "F.SilkS")
+		(uuid "ec6192ef-ea5b-48d0-a01a-a5265cee8b67")
+		(effects
+			(font
+				(size 1.001543 1.001543)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MICS-SMD10"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c1ac72c1-4d1a-438c-a490-f336204fcc13")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe768a7c-d792-4457-a88a-710362d965c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93dcfce2-c32c-4f31-9cfe-490ebeadc052")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.5)
+		(end -3.5 -1.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ecaa0a-ce29-46b6-b539-96270bc4d5a8")
+	)
+	(fp_line
+		(start -3.5 -2.5)
+		(end -1.9 -2.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b9bd8ca-31cf-4e60-be86-0731527966d5")
+	)
+	(fp_line
+		(start -3.5 2.5)
+		(end -3.5 1.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe07dff4-7bf4-4800-bb3f-a91c808ed4e5")
+	)
+	(fp_line
+		(start -3.5 2.5)
+		(end -1.9 2.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a1bd1ca-1ba0-428d-adf6-f2c5cfb302a0")
+	)
+	(fp_line
+		(start 1.9 -2.5)
+		(end 3.5 -2.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3219fed0-8b92-43e6-9cb8-8448e4eebb62")
+	)
+	(fp_line
+		(start 1.9 2.5)
+		(end 3.5 2.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33894068-ef2c-4369-8f63-096f08dce89b")
+	)
+	(fp_line
+		(start 3.5 -2.5)
+		(end 3.5 -1.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e61044e4-485f-4006-a3cd-58d071bd5772")
+	)
+	(fp_line
+		(start 3.5 2.5)
+		(end 3.5 1.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f27a5f29-8d6b-41fe-84da-7fc7af8fdba1")
+	)
+	(pad "A" smd rect
+		(at -1.25 2.54)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "54c0e133-043d-443d-bc6b-2de7eafa0854")
+	)
+	(pad "B" smd rect
+		(at 0 2.54)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dbda513d-d8c8-4e91-928b-8a1142c206c6")
+	)
+	(pad "C" smd rect
+		(at 1.25 2.54)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1244b2a1-8139-4925-b8e8-089e7a58f589")
+	)
+	(pad "D" smd rect
+		(at 3.5 1.27)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5ec7ac15-82e0-4f96-9e55-2575a3ce3629")
+	)
+	(pad "E" smd rect
+		(at 3.5 -1.27)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d0a7c899-26fe-4152-b2fb-0f26ef2a44e2")
+	)
+	(pad "F" smd rect
+		(at 1.25 -2.54)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c7d121ca-0068-4e7a-a6ed-30bcd19523d0")
+	)
+	(pad "G" smd rect
+		(at 0 -2.54)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "14724950-a849-4d3e-a728-c468b313eedb")
+	)
+	(pad "H" smd rect
+		(at -1.25 -2.54)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7b6faaf8-f9e5-404c-adbb-209f285b7932")
+	)
+	(pad "J" smd rect
+		(at -3.5 -1.27)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6d8a1670-6c49-4c8d-aa26-97e7e2cd24b1")
+	)
+	(pad "K" smd rect
+		(at -3.5 1.27)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0a18899c-b4cb-4533-bc7c-32ab5c74cce3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3Dshapes/MICS-5524.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

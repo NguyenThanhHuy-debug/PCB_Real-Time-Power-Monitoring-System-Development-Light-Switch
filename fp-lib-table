@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Smart_Plug")(type "KiCad")(uri "${KIPRJMOD}/lib/Smart_Plug.pretty")(options "")(descr ""))
+)
